@@ -1,0 +1,52 @@
+! Base16 Unikitty
+! Scheme: Josh W Lewis
+
+! URxvt*tintColor:                      color
+! URxvt*fadeColor:                      color
+
+URxvt*background:                     #f8f7f7
+URxvt*foreground:                     #696167
+URxvt*cursorColor:                    #696167
+
+! URxvt*colorBD:                        color
+! URxvt*colorIT:                        color
+! URxvt*colorUL:                        color
+! URxvt*colorRV:                        color
+! URxvt*underlineColor:                 color
+URxvt*scrollColor:                    #bfbbbd
+! URxvt*troughColor:                    color
+URxvt*highlightColor:                 #f8f7f7
+URxvt*highlightTextColor:             #bfbbbd
+! URxvt*cursorColor2:                   color
+! URxvt*pointerColor:                   color
+! URxvt*pointerColor2:                  color
+! URxvt*borderColor:                    color
+! URxvt*tab-bg:                         colour
+! URxvt*tab-fg:                         colour
+! URxvt*tabbar-bg:                      colour
+! URxvt*tabbar-fg:                      colour
+
+URxvt*color0:                         #31262e
+URxvt*color1:                         #d8046f
+URxvt*color2:                         #0fa994
+URxvt*color3:                         #dc8a0e
+URxvt*color4:                         #7f42f5
+URxvt*color5:                         #a717f1
+URxvt*color6:                         #279ed6
+URxvt*color7:                         #bfbbbd
+URxvt*color8:                         #867f84
+URxvt*color9:                         #d8046f
+URxvt*color10:                        #0fa994
+URxvt*color11:                        #dc8a0e
+URxvt*color12:                        #7f42f5
+URxvt*color13:                        #a717f1
+URxvt*color14:                        #279ed6
+URxvt*color15:                        #f8f7f7
+
+! 256 color space
+URxvt*color16:                        #d65407
+URxvt*color17:                        #c720ca
+URxvt*color18:                        #4d434a
+URxvt*color19:                        #696167
+URxvt*color20:                        #a29da0
+URxvt*color21:                        #dbd9da

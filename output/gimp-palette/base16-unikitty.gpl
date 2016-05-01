@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Base16 Unikitty
+Columns: 16
+#
+  49  38  46	base00
+  77  67  74	base01
+  105  97  103	base02
+  134  127  132	base03
+  162  157  160	base04
+  191  187  189	base05
+  219  217  218	base06
+  248  247  247	base07
+  216  4  111	base08
+  214  84  7	base09
+  220  138  14	base0A
+  15  169  148	base0B
+  39  158  214	base0C
+  127  66  245	base0D
+  167  23  241	base0E
+  199  32  202	base0F
