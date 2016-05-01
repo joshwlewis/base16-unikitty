@@ -10,7 +10,7 @@
 
 /* Unikitty Comment */
 .hljs-comment {
-  color: #867f84;
+  color: #898588;
 }
 
 /* Unikitty Red */
@@ -27,7 +27,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #d8046f;
+  color: #d8137f;
 }
 
 /* Unikitty Orange */
@@ -53,13 +53,13 @@
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #0fa994;
+  color: #17ad98;
 }
 
 /* Unikitty Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #279ed6;
+  color: #149bda;
 }
 
 /* Unikitty Blue */
@@ -71,36 +71,36 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #7f42f5;
+  color: #735bf1;
 }
 
 /* Unikitty Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #a717f1;
+  color: #a232dc;
 }
 
 .diff .hljs-deletion,
 .diff .hljs-addition {
-  color: #31262e;
+  color: #322a30;
   display: inline-block;
   width: 100%;
 }
 .diff .hljs-deletion {
-  background-color: #d8046f;
+  background-color: #d8137f;
 }
 .diff .hljs-addition {
-  background-color: #0fa994;
+  background-color: #17ad98;
 }
 .diff .hljs-change {
-  color: #7f42f5;
+  color: #735bf1;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #f8f7f7;
-  color: #696167;
+  background: #ffffff;
+  color: #6c666b;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

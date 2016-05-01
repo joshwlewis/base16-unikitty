@@ -7,21 +7,21 @@
 local buffer = buffer
 local property, property_int = buffer.property, buffer.property_int
 
-property['color.base00'] = 0x2e2631
-property['color.base01'] = 0x4a434d
-property['color.base02'] = 0x676169
-property['color.base03'] = 0x847f86
-property['color.base04'] = 0xa09da2
-property['color.base05'] = 0xbdbbbf
-property['color.base06'] = 0xdad9db
-property['color.base07'] = 0xf7f7f8
-property['color.base08'] = 0x6f04d8
+property['color.base00'] = 0x302a32
+property['color.base01'] = 0x4d484f
+property['color.base02'] = 0x6b666c
+property['color.base03'] = 0x888589
+property['color.base04'] = 0xa6a3a7
+property['color.base05'] = 0xc3c2c4
+property['color.base06'] = 0xe1e0e1
+property['color.base07'] = 0xffffff
+property['color.base08'] = 0x7f13d8
 property['color.base09'] = 0x0754d6
 property['color.base0A'] = 0x0e8adc
-property['color.base0B'] = 0x94a90f
-property['color.base0C'] = 0xd69e27
-property['color.base0D'] = 0xf5427f
-property['color.base0E'] = 0xf117a7
+property['color.base0B'] = 0x98ad17
+property['color.base0C'] = 0xda9b14
+property['color.base0D'] = 0xf15b73
+property['color.base0E'] = 0xdc32a2
 property['color.base0F'] = 0xca20c7
 
 -- Default font.

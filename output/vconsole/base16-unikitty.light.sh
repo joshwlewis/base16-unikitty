@@ -2,22 +2,22 @@
 # Base16 Unikitty - Virtual console color setup script
 # Josh W Lewis
 
-color00="f8f7f7" # Base 07 - White
-color01="d8046f" # Base 08 - Red
-color02="0fa994" # Base 0B - Green
+color00="ffffff" # Base 07 - White
+color01="d8137f" # Base 08 - Red
+color02="17ad98" # Base 0B - Green
 color03="dc8a0e" # Base 0A - Yellow
-color04="7f42f5" # Base 0D - Blue
-color05="a717f1" # Base 0E - Magenta
-color06="279ed6" # Base 0C - Cyan
-color07="696167" # Base 02 - Black
-color08="bfbbbd" # Base 05 - Bright White
+color04="735bf1" # Base 0D - Blue
+color05="a232dc" # Base 0E - Magenta
+color06="149bda" # Base 0C - Cyan
+color07="6c666b" # Base 02 - Black
+color08="c4c2c3" # Base 05 - Bright White
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="31262e" # Base 00 - Bright Black
+color15="322a30" # Base 00 - Bright Black
 
 # 16 color space
 echo -e "\e]P0$color00"

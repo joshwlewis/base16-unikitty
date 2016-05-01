@@ -5,45 +5,45 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\SmartFTP\Client 2.0\Settings\Terminal\Settings\Terminal\Window\Colors]
 
 ; Default Foreground
-"Color 0"=dword:00a09da2
-"Color 1"=dword:00bdbbbf
+"Color 0"=dword:00a6a3a7
+"Color 1"=dword:00c3c2c4
 
 ; Default Background
-"Color 2"=dword:002e2631
-"Color 3"=dword:004a434d
+"Color 2"=dword:00302a32
+"Color 3"=dword:004d484f
 
 ; Cursor
-"Color 4"=dword:002e2631
-"Color 5"=dword:00dad9db
+"Color 4"=dword:00302a32
+"Color 5"=dword:00e1e0e1
 
 ; Black
-"Color 6"=dword:002e2631
-"Color 7"=dword:00847f86
+"Color 6"=dword:00302a32
+"Color 7"=dword:00888589
 
 ; Red
-"Color 8"=dword:006f04d8
-"Color 9"=dword:006f04d8
+"Color 8"=dword:007f13d8
+"Color 9"=dword:007f13d8
 
 ; Green
-"Color 10"=dword:0094a90f
-"Color 11"=dword:0094a90f
+"Color 10"=dword:0098ad17
+"Color 11"=dword:0098ad17
 
 ; Yellow
 "Color 12"=dword:000e8adc
 "Color 13"=dword:000e8adc
 
 ; Blue
-"Color 14"=dword:00f5427f
-"Color 15"=dword:00f5427f
+"Color 14"=dword:00f15b73
+"Color 15"=dword:00f15b73
 
 ; Magenta
-"Color 16"=dword:00f117a7
-"Color 17"=dword:00f117a7
+"Color 16"=dword:00dc32a2
+"Color 17"=dword:00dc32a2
 
 ; Cyan
-"Color 18"=dword:00d69e27
-"Color 19"=dword:00d69e27
+"Color 18"=dword:00da9b14
+"Color 19"=dword:00da9b14
 
 ; White
-"Color 20"=dword:00bdbbbf
-"Color 21"=dword:00f7f7f8
+"Color 20"=dword:00c3c2c4
+"Color 21"=dword:00ffffff

@@ -1,21 +1,21 @@
 ! Base16 Unikitty
 ! Scheme: Josh W Lewis
 
-#define base00 #31262e
-#define base01 #4d434a
-#define base02 #696167
-#define base03 #867f84
-#define base04 #a29da0
-#define base05 #bfbbbd
-#define base06 #dbd9da
-#define base07 #f8f7f7
-#define base08 #d8046f
+#define base00 #322a30
+#define base01 #4f484d
+#define base02 #6c666b
+#define base03 #898588
+#define base04 #a7a3a6
+#define base05 #c4c2c3
+#define base06 #e1e0e1
+#define base07 #ffffff
+#define base08 #d8137f
 #define base09 #d65407
 #define base0A #dc8a0e
-#define base0B #0fa994
-#define base0C #279ed6
-#define base0D #7f42f5
-#define base0E #a717f1
+#define base0B #17ad98
+#define base0C #149bda
+#define base0D #735bf1
+#define base0E #a232dc
 #define base0F #c720ca
 
 *foreground:   base05

@@ -7,23 +7,23 @@ title = Base16 Unikitty
 #   slot    transparent bold
 #      | red grn blu  | |
 #      V V--color--V  V V
-color  0 191 187 189  0 0 # 0 - Foreground Color
-color  1  49  38  46  1 0 # 1 - Background Color
-color  2  49  38  46  0 0 # 2 - Color 0 (black)
-color  3 216   4 111  0 0 # 3 - Color 1 (red)
-color  4  15 169 148  0 0 # 3 - Color 2 (green)
+color  0 196 194 195  0 0 # 0 - Foreground Color
+color  1  50  42  48  1 0 # 1 - Background Color
+color  2  50  42  48  0 0 # 2 - Color 0 (black)
+color  3 216  19 127  0 0 # 3 - Color 1 (red)
+color  4  23 173 152  0 0 # 3 - Color 2 (green)
 color  5 220 138  14  0 0 # 3 - Color 3 (yellow)
-color  6 127  66 245  0 0 # 3 - Color 4 (blue)
-color  7 167  23 241  0 0 # 3 - Color 5 (magenta)
-color  8  39 158 214  0 0 # 3 - Color 6 (cyan)
-color  9 191 187 189  0 0 # 3 - Color 7 (white)
-color 10 219 217 218  0 1 # 3 - Foreground Intensive Color
-color 11 148 142 146  1 0 # 3 - Background Intensive Color
-color 12 148 142 146  0 0 # 3 - Color 0 Intensive (grey)
-color 13 232 125 179  0 0 # 3 - Color 1 Intensive (light red)
-color 14 131 208 197  0 0 # 3 - Color 2 Intensive (light green)
-color 15 234 192 130  0 0 # 3 - Color 3 Intensive (light yellow)
-color 16 187 156 246  0 0 # 3 - Color 4 Intensive (light blue)
-color 17 207 135 244  0 0 # 3 - Color 5 Intensive (light magenta)
-color 18 143 202 230  0 0 # 3 - Color 6 Intensive (light cyan)
-color 19 219 217 218  0 0 # 3 - Color 7 Intensive (white)
+color  6 115  91 241  0 0 # 3 - Color 4 (blue)
+color  7 162  50 220  0 0 # 3 - Color 5 (magenta)
+color  8  20 155 218  0 0 # 3 - Color 6 (cyan)
+color  9 196 194 195  0 0 # 3 - Color 7 (white)
+color 10 225 224 225  0 1 # 3 - Foreground Intensive Color
+color 11 152 148 151  1 0 # 3 - Background Intensive Color
+color 12 152 148 151  0 0 # 3 - Color 0 Intensive (grey)
+color 13 235 137 191  0 0 # 3 - Color 1 Intensive (light red)
+color 14 139 214 203  0 0 # 3 - Color 2 Intensive (light green)
+color 15 237 196 134  0 0 # 3 - Color 3 Intensive (light yellow)
+color 16 185 173 248  0 0 # 3 - Color 4 Intensive (light blue)
+color 17 208 152 237  0 0 # 3 - Color 5 Intensive (light magenta)
+color 18 137 205 236  0 0 # 3 - Color 6 Intensive (light cyan)
+color 19 225 224 225  0 0 # 3 - Color 7 Intensive (white)

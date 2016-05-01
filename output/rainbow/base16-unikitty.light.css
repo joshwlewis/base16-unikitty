@@ -7,11 +7,11 @@
  * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
  */
 pre {
-    background-color: #f8f7f7;
+    background-color: #ffffff;
     word-wrap: break-word;
     margin: 0px;
     padding: 10px;
-    color: #31262e;
+    color: #322a30;
     font-size: 14px;
     margin-bottom: 20px;
 }
@@ -21,11 +21,11 @@ pre, code {
 }
 
 pre .comment {
-    color: #a29da0;
+    color: #a7a3a6;
 }
 
 pre .variable.global, pre .variable.class, pre .variable.instance {
-    color: #d8046f; /* red */
+    color: #d8137f; /* red */
 }
 
 pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
@@ -37,13 +37,13 @@ pre .constant, pre .entity, pre .entity.class, pre .support {
 }
 
 pre .constant.symbol, pre .string {
-    color: #0fa994; /* green */
+    color: #17ad98; /* green */
 }
 
 pre .entity.function, pre .support.css-property, pre .selector {
-    color: #7f42f5; /* blue */
+    color: #735bf1; /* blue */
 }
 
 pre .keyword, pre .storage {
-    color: #a717f1; /* purple */
+    color: #a232dc; /* purple */
 }

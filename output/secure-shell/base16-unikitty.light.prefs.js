@@ -1,25 +1,25 @@
 // prefs.js Template
 // Petr Hosek(http://petrhosek.name)
 
-term_.prefs_.set('background-color', '#f8f7f7');
-term_.prefs_.set('foreground-color', '#696167');
-term_.prefs_.set('cursor-color', '#696167');
+term_.prefs_.set('background-color', '#ffffff');
+term_.prefs_.set('foreground-color', '#6c666b');
+term_.prefs_.set('cursor-color', '#6c666b');
 
 term_.prefs_.set('color-palette-overrides', [
-    '#4d434a',
-    '#d8046f',
-    '#0fa994',
+    '#4f484d',
+    '#d8137f',
+    '#17ad98',
     '#dc8a0e',
-    '#7f42f5',
+    '#735bf1',
     '#c720ca',
-    '#279ed6',
-    '#dbd9da',
-    '#31262e',
+    '#149bda',
+    '#e1e0e1',
+    '#322a30',
     '#d65407',
-    '#696167',
-    '#867f84',
-    '#a29da0',
-    '#a717f1',
-    '#bfbbbd',
-    '#f8f7f7',
+    '#6c666b',
+    '#898588',
+    '#a7a3a6',
+    '#a232dc',
+    '#c4c2c3',
+    '#ffffff',
   ]);

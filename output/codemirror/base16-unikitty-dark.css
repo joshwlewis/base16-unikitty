@@ -8,26 +8,26 @@
 
 */
 
-.cm-s-base16-unikitty-dark.CodeMirror {background: #31262e; color: #dbd9da;}
-.cm-s-base16-unikitty-dark div.CodeMirror-selected {background: #4d434a !important;}
-.cm-s-base16-unikitty-dark .CodeMirror-gutters {background: #31262e; border-right: 0px;}
-.cm-s-base16-unikitty-dark .CodeMirror-linenumber {color: #867f84;}
-.cm-s-base16-unikitty-dark .CodeMirror-cursor {border-left: 1px solid #a29da0 !important;}
+.cm-s-base16-unikitty-dark.CodeMirror {background: #322a30; color: #e1e0e1;}
+.cm-s-base16-unikitty-dark div.CodeMirror-selected {background: #4f484d !important;}
+.cm-s-base16-unikitty-dark .CodeMirror-gutters {background: #322a30; border-right: 0px;}
+.cm-s-base16-unikitty-dark .CodeMirror-linenumber {color: #898588;}
+.cm-s-base16-unikitty-dark .CodeMirror-cursor {border-left: 1px solid #a7a3a6 !important;}
 
 .cm-s-base16-unikitty-dark span.cm-comment {color: #c720ca;}
-.cm-s-base16-unikitty-dark span.cm-atom {color: #a717f1;}
-.cm-s-base16-unikitty-dark span.cm-number {color: #a717f1;}
+.cm-s-base16-unikitty-dark span.cm-atom {color: #a232dc;}
+.cm-s-base16-unikitty-dark span.cm-number {color: #a232dc;}
 
-.cm-s-base16-unikitty-dark span.cm-property, .cm-s-base16-unikitty-dark span.cm-attribute {color: #0fa994;}
-.cm-s-base16-unikitty-dark span.cm-keyword {color: #d8046f;}
+.cm-s-base16-unikitty-dark span.cm-property, .cm-s-base16-unikitty-dark span.cm-attribute {color: #17ad98;}
+.cm-s-base16-unikitty-dark span.cm-keyword {color: #d8137f;}
 .cm-s-base16-unikitty-dark span.cm-string {color: #dc8a0e;}
 
-.cm-s-base16-unikitty-dark span.cm-variable {color: #0fa994;}
-.cm-s-base16-unikitty-dark span.cm-variable-2 {color: #7f42f5;}
+.cm-s-base16-unikitty-dark span.cm-variable {color: #17ad98;}
+.cm-s-base16-unikitty-dark span.cm-variable-2 {color: #735bf1;}
 .cm-s-base16-unikitty-dark span.cm-def {color: #d65407;}
-.cm-s-base16-unikitty-dark span.cm-error {background: #d8046f; color: #a29da0;}
-.cm-s-base16-unikitty-dark span.cm-bracket {color: #dbd9da;}
-.cm-s-base16-unikitty-dark span.cm-tag {color: #d8046f;}
-.cm-s-base16-unikitty-dark span.cm-link {color: #a717f1;}
+.cm-s-base16-unikitty-dark span.cm-error {background: #d8137f; color: #a7a3a6;}
+.cm-s-base16-unikitty-dark span.cm-bracket {color: #e1e0e1;}
+.cm-s-base16-unikitty-dark span.cm-tag {color: #d8137f;}
+.cm-s-base16-unikitty-dark span.cm-link {color: #a232dc;}
 
 .cm-s-base16-unikitty-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

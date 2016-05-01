@@ -4,19 +4,19 @@
 ! URxvt*tintColor:                      color
 ! URxvt*fadeColor:                      color
 
-URxvt*background:                     #f8f7f7
-URxvt*foreground:                     #696167
-URxvt*cursorColor:                    #696167
+URxvt*background:                     #ffffff
+URxvt*foreground:                     #6c666b
+URxvt*cursorColor:                    #6c666b
 
 ! URxvt*colorBD:                        color
 ! URxvt*colorIT:                        color
 ! URxvt*colorUL:                        color
 ! URxvt*colorRV:                        color
 ! URxvt*underlineColor:                 color
-URxvt*scrollColor:                    #bfbbbd
+URxvt*scrollColor:                    #c4c2c3
 ! URxvt*troughColor:                    color
-URxvt*highlightColor:                 #f8f7f7
-URxvt*highlightTextColor:             #bfbbbd
+URxvt*highlightColor:                 #ffffff
+URxvt*highlightTextColor:             #c4c2c3
 ! URxvt*cursorColor2:                   color
 ! URxvt*pointerColor:                   color
 ! URxvt*pointerColor2:                  color
@@ -26,27 +26,27 @@ URxvt*highlightTextColor:             #bfbbbd
 ! URxvt*tabbar-bg:                      colour
 ! URxvt*tabbar-fg:                      colour
 
-URxvt*color0:                         #31262e
-URxvt*color1:                         #d8046f
-URxvt*color2:                         #0fa994
+URxvt*color0:                         #322a30
+URxvt*color1:                         #d8137f
+URxvt*color2:                         #17ad98
 URxvt*color3:                         #dc8a0e
-URxvt*color4:                         #7f42f5
-URxvt*color5:                         #a717f1
-URxvt*color6:                         #279ed6
-URxvt*color7:                         #bfbbbd
-URxvt*color8:                         #867f84
-URxvt*color9:                         #d8046f
-URxvt*color10:                        #0fa994
+URxvt*color4:                         #735bf1
+URxvt*color5:                         #a232dc
+URxvt*color6:                         #149bda
+URxvt*color7:                         #c4c2c3
+URxvt*color8:                         #898588
+URxvt*color9:                         #d8137f
+URxvt*color10:                        #17ad98
 URxvt*color11:                        #dc8a0e
-URxvt*color12:                        #7f42f5
-URxvt*color13:                        #a717f1
-URxvt*color14:                        #279ed6
-URxvt*color15:                        #f8f7f7
+URxvt*color12:                        #735bf1
+URxvt*color13:                        #a232dc
+URxvt*color14:                        #149bda
+URxvt*color15:                        #ffffff
 
 ! 256 color space
 URxvt*color16:                        #d65407
 URxvt*color17:                        #c720ca
-URxvt*color18:                        #4d434a
-URxvt*color19:                        #696167
-URxvt*color20:                        #a29da0
-URxvt*color21:                        #dbd9da
+URxvt*color18:                        #4f484d
+URxvt*color19:                        #6c666b
+URxvt*color20:                        #a7a3a6
+URxvt*color21:                        #e1e0e1

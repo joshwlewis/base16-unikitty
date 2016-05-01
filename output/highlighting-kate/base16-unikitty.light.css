@@ -2,22 +2,22 @@
 Scheme: Josh W Lewis */
 
 table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
-{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #f8f7f7; color: #696167 }
-td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #dbd9da; }
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #ffffff; color: #6c666b }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #e1e0e1; }
 td.sourceCode { padding-left: 5px; }
-code.sourceCode { background-color: #f8f7f7; }
-pre.sourceCode { background-color: #f8f7f7; line-height: 125% }
-td.nums pre { background-color: #dbd9da; line-height: 125% }
-code.sourceCode span.kw { color: #7f42f5; font-weight: bold } /* Keyword */
-code.sourceCode span.dt { color: #a717f1} /* Keyword.Type */
+code.sourceCode { background-color: #ffffff; }
+pre.sourceCode { background-color: #ffffff; line-height: 125% }
+td.nums pre { background-color: #e1e0e1; line-height: 125% }
+code.sourceCode span.kw { color: #735bf1; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #a232dc} /* Keyword.Type */
 code.sourceCode span.dv { color: #d65407 } /* Literal.Number.Integer */
 code.sourceCode span.bn { color: #d65407 } /* Literal.Number.Hex */
 code.sourceCode span.fl { color: #d65407 } /* Literal.Number.Float */
-code.sourceCode span.ch { color: #0fa994} /* Literal.String.Char */
-code.sourceCode span.st { color: #0fa994 } /* Literal.String */
-code.sourceCode span.co { color: #867f84 } /* Comment */
+code.sourceCode span.ch { color: #17ad98} /* Literal.String.Char */
+code.sourceCode span.st { color: #17ad98 } /* Literal.String */
+code.sourceCode span.co { color: #898588 } /* Comment */
 code.sourceCode span.ot { color: #c720ca } /* Comment.Preproc */
-code.sourceCode span.al { color: #a717f1 } /* Generic.Error */
+code.sourceCode span.al { color: #a232dc } /* Generic.Error */
 code.sourceCode span.fu { color: #dc8a0e } /* Name.Function */
-code.sourceCode span.re { color: #279ed6}
-code.sourceCode span.er { color: #d8046f; border: 1px solid #a717f1 } /* Error */
+code.sourceCode span.re { color: #149bda}
+code.sourceCode span.er { color: #d8137f; border: 1px solid #a232dc } /* Error */

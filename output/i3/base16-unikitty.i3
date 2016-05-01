@@ -3,21 +3,21 @@
 # Base16 Unikitty by Josh W Lewis
 # template by Matt Parnell, @parnmatt
 
-set $base00 #31262e
-set $base01 #4d434a
-set $base02 #696167
-set $base03 #867f84
-set $base04 #a29da0
-set $base05 #bfbbbd
-set $base06 #dbd9da
-set $base07 #f8f7f7
-set $base08 #d8046f
+set $base00 #322a30
+set $base01 #4f484d
+set $base02 #6c666b
+set $base03 #898588
+set $base04 #a7a3a6
+set $base05 #c4c2c3
+set $base06 #e1e0e1
+set $base07 #ffffff
+set $base08 #d8137f
 set $base09 #d65407
 set $base0A #dc8a0e
-set $base0B #0fa994
-set $base0C #279ed6
-set $base0D #7f42f5
-set $base0E #a717f1
+set $base0B #17ad98
+set $base0C #149bda
+set $base0D #735bf1
+set $base0E #a232dc
 set $base0F #c720ca
 
 client.focused $base0D $base0D $base00 $base01

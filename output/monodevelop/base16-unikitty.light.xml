@@ -4,21 +4,21 @@
      - https://github.com/chriskempson/base16
      - Scheme: Josh W Lewis
      -->
-  <Color name="base00" value="#31262e"/>
-  <Color name="base01" value="#4d434a"/>
-  <Color name="base02" value="#696167"/>
-  <Color name="base03" value="#867f84"/>
-  <Color name="base04" value="#a29da0"/>
-  <Color name="base05" value="#bfbbbd"/>
-  <Color name="base06" value="#dbd9da"/>
-  <Color name="base07" value="#f8f7f7"/>
-  <Color name="base08" value="#d8046f"/>
+  <Color name="base00" value="#322a30"/>
+  <Color name="base01" value="#4f484d"/>
+  <Color name="base02" value="#6c666b"/>
+  <Color name="base03" value="#898588"/>
+  <Color name="base04" value="#a7a3a6"/>
+  <Color name="base05" value="#c4c2c3"/>
+  <Color name="base06" value="#e1e0e1"/>
+  <Color name="base07" value="#ffffff"/>
+  <Color name="base08" value="#d8137f"/>
   <Color name="base09" value="#d65407"/>
   <Color name="base0A" value="#dc8a0e"/>
-  <Color name="base0B" value="#0fa994"/>
-  <Color name="base0C" value="#279ed6"/>
-  <Color name="base0D" value="#7f42f5"/>
-  <Color name="base0E" value="#a717f1"/>
+  <Color name="base0B" value="#17ad98"/>
+  <Color name="base0C" value="#149bda"/>
+  <Color name="base0D" value="#735bf1"/>
+  <Color name="base0E" value="#a232dc"/>
   <Color name="base0F" value="#c720ca"/>
 
   <!-- Text -->

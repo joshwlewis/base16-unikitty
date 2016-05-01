@@ -1,63 +1,63 @@
 
 [Background]
-Color=49,38,46
+Color=50,42,48
 
 [BackgroundIntense]
-Color=148,142,146
+Color=152,148,151
 
 [Color0] 
-Color=49,38,46
+Color=50,42,48
 
 [Color0Intense]
-Color=148,142,146
+Color=152,148,151
 
 [Color1] 
-Color=216,4,111
+Color=216,19,127
 
 [Color1Intense]
-Color=232,125,179
+Color=235,137,191
 
 [Color2] 
-Color=15,169,148
+Color=23,173,152
 
 [Color2Intense]
-Color=131,208,197
+Color=139,214,203
 
 [Color3] 
 Color=220,138,14
 
 [Color3Intense]
-Color=234,192,130
+Color=237,196,134
 
 [Color4] 
-Color=127,66,245
+Color=115,91,241
 
 [Color4Intense]
-Color=187,156,246
+Color=185,173,248
 
 [Color5] 
-Color=167,23,241
+Color=162,50,220
 
 [Color5Intense]
-Color=207,135,244
+Color=208,152,237
 
 [Color6] 
-Color=39,158,214
+Color=20,155,218
 
 [Color6Intense]
-Color=143,202,230
+Color=137,205,236
 
 [Color7] 
-Color=191,187,189
+Color=196,194,195
 
 [Color7Intense]
-Color=219,217,218
+Color=225,224,225
 
 [Foreground]
-Color=191,187,189
+Color=196,194,195
 
 [ForegroundIntense]
-Color=219,217,218
+Color=225,224,225
 
 [General]
 Description=Base16 Unikitty

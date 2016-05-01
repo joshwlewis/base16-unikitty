@@ -12,18 +12,18 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
 
-BACKGROUND = "#f8f7f7"
-CURRENT_LINE = "#dbd9da"
-SELECTION = "#bfbbbd"
-FOREGROUND = "#31262e"
-COMMENT = "#a29da0"
-RED = "#d8046f"
+BACKGROUND = "#ffffff"
+CURRENT_LINE = "#e1e0e1"
+SELECTION = "#c4c2c3"
+FOREGROUND = "#322a30"
+COMMENT = "#a7a3a6"
+RED = "#d8137f"
 ORANGE = "#d65407"
 YELLOW = "#dc8a0e"
-GREEN = "#0fa994"
-AQUA = "#279ed6"
-BLUE = "#7f42f5"
-PURPLE = "#a717f1"
+GREEN = "#17ad98"
+AQUA = "#149bda"
+BLUE = "#735bf1"
+PURPLE = "#a232dc"
 
 
 class base16_unikitty_light(Style):

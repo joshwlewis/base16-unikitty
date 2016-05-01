@@ -16,11 +16,11 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 */
 
 /* GLOBALS */
-body {background-color: #31262e;}
-a {color: #7f42f5;}
+body {background-color: #322a30;}
+a {color: #735bf1;}
 
 /* INTRO PAGE */
-.toolbar_info, .list_container {color: #dbd9da;}
+.toolbar_info, .list_container {color: #e1e0e1;}
 
 /* NOTEBOOK */
 
@@ -30,57 +30,57 @@ div#maintoolbar, div#header {display: none !important;}
 div#notebook {border-top: none;}
 
 div.input_prompt {color: #c720ca;}
-div.output_prompt {color: #a717f1;}
+div.output_prompt {color: #a232dc;}
 div.input_area {
   border-radius: 0px;
-  border: 1px solid #696167;
+  border: 1px solid #6c666b;
 }
-div.output_area pre {font-weight: normal; color: #bfbbbd;}
+div.output_area pre {font-weight: normal; color: #c4c2c3;}
 
 .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
-  border: 1px  #bfbbbd solid;
-  color: #bfbbbd;
+  border: 1px  #c4c2c3 solid;
+  color: #c4c2c3;
 }
 div.output_html { font-family: sans-serif; }
-table.dataframe tr {border: 1px #bfbbbd;}
+table.dataframe tr {border: 1px #c4c2c3;}
 
 div.cell.selected {border-radius: 0px;}
-div.cell.edit_mode {border-radius: 0px; border: thin solid #a717f1;}
-div.text_cell_render, div.output_html {color: #bfbbbd;}
+div.cell.edit_mode {border-radius: 0px; border: thin solid #a232dc;}
+div.text_cell_render, div.output_html {color: #c4c2c3;}
 
-span.ansiblack {color: #4d434a;}
-span.ansiblue {color: #279ed6;}
-span.ansigray {color: #a29da0;}
-span.ansigreen {color: #0fa994;}
-span.ansipurple {color: #a717f1;}
-span.ansired {color: #d8046f;}
+span.ansiblack {color: #4f484d;}
+span.ansiblue {color: #149bda;}
+span.ansigray {color: #a7a3a6;}
+span.ansigreen {color: #17ad98;}
+span.ansipurple {color: #a232dc;}
+span.ansired {color: #d8137f;}
 span.ansiyellow {color: #dc8a0e;}
 
-div.output_stderr {background-color: #d8046f;}
-div.output_stderr pre {color: #dbd9da;}
+div.output_stderr {background-color: #d8137f;}
+div.output_stderr pre {color: #e1e0e1;}
 
-.cm-s-ipython.CodeMirror {background: #31262e; color: #dbd9da;}
-.cm-s-ipython div.CodeMirror-selected {background: #4d434a !important;}
-.cm-s-ipython .CodeMirror-gutters {background: #31262e; border-right: 0px;}
-.cm-s-ipython .CodeMirror-linenumber {color: #867f84;}
-.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #a29da0 !important;}
+.cm-s-ipython.CodeMirror {background: #322a30; color: #e1e0e1;}
+.cm-s-ipython div.CodeMirror-selected {background: #4f484d !important;}
+.cm-s-ipython .CodeMirror-gutters {background: #322a30; border-right: 0px;}
+.cm-s-ipython .CodeMirror-linenumber {color: #898588;}
+.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #a7a3a6 !important;}
 
 .cm-s-ipython span.cm-comment {color: #c720ca;}
-.cm-s-ipython span.cm-atom {color: #a717f1;}
-.cm-s-ipython span.cm-number {color: #a717f1;}
+.cm-s-ipython span.cm-atom {color: #a232dc;}
+.cm-s-ipython span.cm-number {color: #a232dc;}
 
-.cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #0fa994;}
-.cm-s-ipython span.cm-keyword {color: #d8046f;}
+.cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #17ad98;}
+.cm-s-ipython span.cm-keyword {color: #d8137f;}
 .cm-s-ipython span.cm-string {color: #dc8a0e;}
 .cm-s-ipython span.cm-operator {color: #c720ca;}
-.cm-s-ipython span.cm-builtin {color: #a717f1;}
+.cm-s-ipython span.cm-builtin {color: #a232dc;}
 
-.cm-s-ipython span.cm-variable {color: #0fa994;}
-.cm-s-ipython span.cm-variable-2 {color: #7f42f5;}
+.cm-s-ipython span.cm-variable {color: #17ad98;}
+.cm-s-ipython span.cm-variable-2 {color: #735bf1;}
 .cm-s-ipython span.cm-def {color: #d65407;}
-.cm-s-ipython span.cm-error {background: #d8046f; color: #a29da0;}
-.cm-s-ipython span.cm-bracket {color: #bfbbbd;}
-.cm-s-ipython span.cm-tag {color: #d8046f;}
-.cm-s-ipython span.cm-link {color: #a717f1;}
+.cm-s-ipython span.cm-error {background: #d8137f; color: #a7a3a6;}
+.cm-s-ipython span.cm-bracket {color: #c4c2c3;}
+.cm-s-ipython span.cm-tag {color: #d8137f;}
+.cm-s-ipython span.cm-link {color: #a232dc;}
 
-.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #dbd9da !important;}
+.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #e1e0e1 !important;}
