@@ -29,6 +29,32 @@ let s:gui0D = "735bf1"
 let s:gui0E = "a232dc"
 let s:gui0F = "c720ca"
 
+" Neovim color definitions for terminal mode
+if has("nvim")
+  let g:terminal_color_0 =  "#" . s:gui00
+  let g:terminal_color_1 =  "#" . s:gui08
+  let g:terminal_color_2 =  "#" . s:gui0B
+  let g:terminal_color_3 =  "#" . s:gui0A
+  let g:terminal_color_4 =  "#" . s:gui0D
+  let g:terminal_color_5 =  "#" . s:gui0E
+  let g:terminal_color_6 =  "#" . s:gui0C
+  let g:terminal_color_7 =  "#" . s:gui05
+  let g:terminal_color_8 =  "#" . s:gui03
+  let g:terminal_color_9 =  "#" . s:gui09
+  let g:terminal_color_10 = "#" . s:gui01
+  let g:terminal_color_11 = "#" . s:gui02
+  let g:terminal_color_12 = "#" . s:gui04
+  let g:terminal_color_13 = "#" . s:gui06
+  let g:terminal_color_14 = "#" . s:gui0F
+  let g:terminal_color_15 = "#" . s:gui07
+  let g:terminal_color_background = g:terminal_color_0
+  let g:terminal_color_foreground = g:terminal_color_7
+  if &background == "light"
+    let g:terminal_color_background = g:terminal_color_7
+    let g:terminal_color_foreground = g:terminal_color_2
+  endif
+endif
+
 " Terminal color definitions
 let s:cterm00 = "00"
 let s:cterm03 = "08"
@@ -261,14 +287,14 @@ call <sid>hi("javaScriptBraces",  s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("javaScriptNumber",  s:gui09, "", s:cterm09, "", "", "")
 
 " Mail highlighting
-call <sid>hi("mailQuoted1",  s:gui0A, "", s:cterm0A, "", "")
-call <sid>hi("mailQuoted2",  s:gui0B, "", s:cterm0B, "", "")
-call <sid>hi("mailQuoted3",  s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("mailQuoted4",  s:gui0C, "", s:cterm0C, "", "")
-call <sid>hi("mailQuoted5",  s:gui0D, "", s:cterm0D, "", "")
-call <sid>hi("mailQuoted6",  s:gui0A, "", s:cterm0A, "", "")
-call <sid>hi("mailURL",      s:gui0D, "", s:cterm0D, "", "")
-call <sid>hi("mailEmail",    s:gui0D, "", s:cterm0D, "", "")
+call <sid>hi("mailQuoted1",  s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("mailQuoted2",  s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("mailQuoted3",  s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("mailQuoted4",  s:gui0C, "", s:cterm0C, "", "", "")
+call <sid>hi("mailQuoted5",  s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("mailQuoted6",  s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("mailURL",      s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("mailEmail",    s:gui0D, "", s:cterm0D, "", "", "")
 
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "", "")
