@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Unikitty - Gnome Terminal color scheme install script
-# Josh W Lewis
+# Josh W Lewis (@joshwlewis)
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Unikitty Light"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-unikitty-light"
@@ -36,7 +36,7 @@ dlist_append() {
 # Newest versions of gnome-terminal use dconf
 if which "$DCONF" > /dev/null 2>&1; then
     #check that uuidgen is available
-    type $UUIDGEN >/dev/null 2>&1 || { echo >&2 "Requires uuidgen but it's not installed.  Aborting!"; return 1; }
+    type $UUIDGEN >/dev/null 2>&1 || { echo >&2 "Requires uuidgen but it's not installed.  Aborting!"; exit 1; }
 
     [[ -z "$BASE_KEY_NEW" ]] && BASE_KEY_NEW=/org/gnome/terminal/legacy/profiles:
 
@@ -62,11 +62,11 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "'#322a30:#d8137f:#17ad98:#dc8a0e:#735bf1:#a232dc:#149bda:#c4c2c3:#898588:#d8137f:#17ad98:#dc8a0e:#735bf1:#a232dc:#149bda:#ffffff'"
-        dset palette "'#ffffff:#d8137f:#17ad98:#dc8a0e:#735bf1:#a232dc:#149bda:#c4c2c3:#898588:#d8137f:#17ad98:#dc8a0e:#735bf1:#a232dc:#149bda:#322a30'"
+        dset palette "'#2e2a31:#d8137f:#17ad98:#dc8a0e:#7864fa:#b33ce8:#149bda:#c3c2c4:#878589:#d8137f:#17ad98:#dc8a0e:#7864fa:#b33ce8:#149bda:#ffffff'"
+        dset palette "'#ffffff:#d8137f:#17ad98:#dc8a0e:#7864fa:#b33ce8:#149bda:#c3c2c4:#878589:#d8137f:#17ad98:#dc8a0e:#7864fa:#b33ce8:#149bda:#2e2a31'"
         dset background-color "'#ffffff'"
-        dset foreground-color "'#6c666b'"
-        dset bold-color "'#6c666b'"
+        dset foreground-color "'#69666b'"
+        dset bold-color "'#69666b'"
         dset bold-color-same-as-fg "true"
         dset use-theme-colors "false"
         dset use-theme-background "false"
@@ -75,7 +75,7 @@ if which "$DCONF" > /dev/null 2>&1; then
         unset PROFILE_SLUG
         unset DCONF
         unset UUIDGEN
-        return 0
+        exit 0
     fi
 fi
 
@@ -113,10 +113,10 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#ffffff:#d8137f:#17ad98:#dc8a0e:#735bf1:#a232dc:#149bda:#c4c2c3:#898588:#d8137f:#17ad98:#dc8a0e:#735bf1:#a232dc:#149bda:#322a30"
+gset string palette "#ffffff:#d8137f:#17ad98:#dc8a0e:#7864fa:#b33ce8:#149bda:#c3c2c4:#878589:#d8137f:#17ad98:#dc8a0e:#7864fa:#b33ce8:#149bda:#2e2a31"
 gset string background_color "#ffffff"
-gset string foreground_color "#6c666b"
-gset string bold_color "#6c666b"
+gset string foreground_color "#69666b"
+gset string bold_color "#69666b"
 gset bool   bold_color_same_as_fg "true"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"

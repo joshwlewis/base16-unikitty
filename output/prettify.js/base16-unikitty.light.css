@@ -1,7 +1,7 @@
 /*
 
     Name:       Base16 Unikitty Light
-    Author:     Josh W Lewis
+    Author:     Josh W Lewis (@joshwlewis)
 
     Prettify template by Jan T. Sott (https://github.com/idleberg/)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
@@ -10,7 +10,7 @@
 
 /* plain text */
 .pln {
-  color: #322a30;
+  color: #2e2a31;
 }
 
 @media screen {
@@ -21,17 +21,17 @@
 
   /* a keyword */
   .kwd {
-    color: #a232dc;
+    color: #b33ce8;
   }
 
   /* a comment */
   .com {
-    color: #a7a3a6;
+    color: #a5a3a6;
   }
 
   /* a type name */
   .typ {
-    color: #735bf1;
+    color: #7864fa;
   }
 
   /* a literal value */
@@ -41,17 +41,17 @@
 
   /* punctuation */
   .pun {
-    color: #322a30;
+    color: #2e2a31;
   }
 
   /* lisp open bracket */
   .opn {
-    color: #322a30;
+    color: #2e2a31;
   }
 
   /* lisp close bracket */
   .clo {
-    color: #322a30;
+    color: #2e2a31;
   }
 
   /* a markup tag name */
@@ -81,7 +81,7 @@
 
   /* a function name */
   .fun {
-    color: #735bf1;
+    color: #7864fa;
   }
 }
 /* Use higher contrast and text-weight for printable form. */
@@ -129,7 +129,7 @@
 /* Style */
 pre.prettyprint {
   background: #ffffff;
-  color: #c4c2c3;
+  color: #c3c2c4;
   font-family: Consolas, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;

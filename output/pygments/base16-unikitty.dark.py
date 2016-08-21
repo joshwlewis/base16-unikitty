@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Base16 Unikitty Dark
-by Josh W Lewis
+by Josh W Lewis (@joshwlewis)
 
 Pygments template by Jan T. Sott (https://github.com/idleberg)
 Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
@@ -12,18 +12,18 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
 
-BACKGROUND = "#322a30"
-CURRENT_LINE = "#4f484d"
-SELECTION = "#6c666b"
+BACKGROUND = "#2e2a31"
+CURRENT_LINE = "#4b484e"
+SELECTION = "#69666b"
 FOREGROUND = "#ffffff"
-COMMENT = "#898588"
+COMMENT = "#878589"
 RED = "#d8137f"
 ORANGE = "#d65407"
 YELLOW = "#dc8a0e"
 GREEN = "#17ad98"
 AQUA = "#149bda"
-BLUE = "#735bf1"
-PURPLE = "#a232dc"
+BLUE = "#7864fa"
+PURPLE = "#b33ce8"
 
 
 class base16_unikitty_dark(Style):

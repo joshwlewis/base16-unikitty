@@ -1,7 +1,7 @@
 /*
 
     Name:       Base16 Unikitty Dark
-    Author:     Josh W Lewis
+    Author:     Josh W Lewis (@joshwlewis)
 
     Prettify template by Jan T. Sott (https://github.com/idleberg/)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
@@ -21,17 +21,17 @@
 
   /* a keyword */
   .kwd {
-    color: #a232dc;
+    color: #b33ce8;
   }
 
   /* a comment */
   .com {
-    color: #898588;
+    color: #878589;
   }
 
   /* a type name */
   .typ {
-    color: #735bf1;
+    color: #7864fa;
   }
 
   /* a literal value */
@@ -81,7 +81,7 @@
 
   /* a function name */
   .fun {
-    color: #735bf1;
+    color: #7864fa;
   }
 }
 /* Use higher contrast and text-weight for printable form. */
@@ -128,12 +128,12 @@
 }
 /* Style */
 pre.prettyprint {
-  background: #322a30;
-  color: #6c666b;
+  background: #2e2a31;
+  color: #69666b;
   font-family: Consolas, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #322a30;
+  border: 1px solid #2e2a31;
   padding: 10px;
   border-radius: 3px;
 }

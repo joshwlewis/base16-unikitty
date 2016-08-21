@@ -1,18 +1,18 @@
 #lang info
 
 ;; Base16 Unikitty (https://github.com/chriskempson/base16)
-;; Scheme: Josh W Lewis
+;; Scheme: Josh W Lewis (@joshwlewis)
 
 ;; pkg metadata
 (define deps '("base"))
 
 ;; color scheme
-(define base00 #(50 42 48))
-(define base01 #(79 72 77))
-(define base02 #(108 102 107))
-(define base03 #(137 133 136))
-(define base04 #(167 163 166))
-(define base05 #(196 194 195))
+(define base00 #(46 42 49))
+(define base01 #(75 72 78))
+(define base02 #(105 102 107))
+(define base03 #(135 133 137))
+(define base04 #(165 163 166))
+(define base05 #(195 194 196))
 (define base06 #(225 224 225))
 (define base07 #(255 255 255))
 (define base08 #(216 19 127))
@@ -20,9 +20,9 @@
 (define base0A #(220 138 14))
 (define base0B #(23 173 152))
 (define base0C #(20 155 218))
-(define base0D #(115 91 241))
-(define base0E #(162 50 220))
-(define base0F #(199 32 202))
+(define base0D #(120 100 250))
+(define base0E #(179 60 232))
+(define base0F #(212 26 205))
 
 (define framework:color-schemes
   `(#hash((name . "Base16 Unikitty Dark")

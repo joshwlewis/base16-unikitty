@@ -1,12 +1,12 @@
 " vim-airline template by chartoin (http://github.com/chartoin)
-" Base 16 Unikitty Scheme by Josh W Lewis
+" Base 16 Unikitty Scheme by Josh W Lewis (@joshwlewis)
 let g:airline#themes#base16_unikitty#palette = {}
-let s:gui00 = "#322a30"
-let s:gui01 = "#4f484d"
-let s:gui02 = "#6c666b"
-let s:gui03 = "#898588"
-let s:gui04 = "#a7a3a6"
-let s:gui05 = "#c4c2c3"
+let s:gui00 = "#2e2a31"
+let s:gui01 = "#4b484e"
+let s:gui02 = "#69666b"
+let s:gui03 = "#878589"
+let s:gui04 = "#a5a3a6"
+let s:gui05 = "#c3c2c4"
 let s:gui06 = "#e1e0e1"
 let s:gui07 = "#ffffff"
 let s:gui08 = "#d8137f"
@@ -14,9 +14,9 @@ let s:gui09 = "#d65407"
 let s:gui0A = "#dc8a0e"
 let s:gui0B = "#17ad98"
 let s:gui0C = "#149bda"
-let s:gui0D = "#735bf1"
-let s:gui0E = "#a232dc"
-let s:gui0F = "#c720ca"
+let s:gui0D = "#7864fa"
+let s:gui0E = "#b33ce8"
+let s:gui0F = "#d41acd"
 
 let s:cterm00 = 0
 let s:cterm01 = 18

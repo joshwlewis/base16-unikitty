@@ -24,16 +24,16 @@
 <style-scheme id="base16-unikitty-dark" _name="Base16 Unikitty Dark" version="1.0">
   
   <!-- Meta -->
-  <author>Josh W Lewis</author>
+  <author>Josh W Lewis (@joshwlewis)</author>
   <_description>Base16 Unikitty Dark</_description>
 
   <!-- Palette -->
-  <color name="base00" value="#322a30"/>
-  <color name="base01" value="#4f484d"/>
-  <color name="base02" value="#6c666b"/>
-  <color name="base03" value="#898588"/>
-  <color name="base04" value="#a7a3a6"/>
-  <color name="base05" value="#c4c2c3"/>
+  <color name="base00" value="#2e2a31"/>
+  <color name="base01" value="#4b484e"/>
+  <color name="base02" value="#69666b"/>
+  <color name="base03" value="#878589"/>
+  <color name="base04" value="#a5a3a6"/>
+  <color name="base05" value="#c3c2c4"/>
   <color name="base06" value="#e1e0e1"/>
   <color name="base07" value="#ffffff"/>
   <color name="base08" value="#d8137f"/>
@@ -41,9 +41,9 @@
   <color name="base0A" value="#dc8a0e"/>
   <color name="base0B" value="#17ad98"/>
   <color name="base0C" value="#149bda"/>
-  <color name="base0D" value="#735bf1"/>
-  <color name="base0E" value="#a232dc"/>
-  <color name="base0F" value="#c720ca"/>
+  <color name="base0D" value="#7864fa"/>
+  <color name="base0E" value="#b33ce8"/>
+  <color name="base0F" value="#d41acd"/>
 
   <!-- Styles -->
   <style name="bracket-match" background="base01" bold="true"/>

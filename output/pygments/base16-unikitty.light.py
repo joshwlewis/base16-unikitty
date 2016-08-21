@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Base16 Unikitty Light
-by Josh W Lewis
+by Josh W Lewis (@joshwlewis)
 
 Pygments template by Jan T. Sott (https://github.com/idleberg)
 Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
@@ -14,16 +14,16 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
 
 BACKGROUND = "#ffffff"
 CURRENT_LINE = "#e1e0e1"
-SELECTION = "#c4c2c3"
-FOREGROUND = "#322a30"
-COMMENT = "#a7a3a6"
+SELECTION = "#c3c2c4"
+FOREGROUND = "#2e2a31"
+COMMENT = "#a5a3a6"
 RED = "#d8137f"
 ORANGE = "#d65407"
 YELLOW = "#dc8a0e"
 GREEN = "#17ad98"
 AQUA = "#149bda"
-BLUE = "#735bf1"
-PURPLE = "#a232dc"
+BLUE = "#7864fa"
+PURPLE = "#b33ce8"
 
 
 class base16_unikitty_light(Style):

@@ -1,5 +1,6 @@
-" Base16 Unikitty (https://github.com/chriskempson/base16)
-" Scheme: Josh W Lewis
+" base16-vim (https://github.com/chriskempson/base16-vim)
+" by Chris Kempson (http://chriskempson.com)
+" Unikitty Dark scheme by Josh W Lewis (@joshwlewis)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -7,53 +8,27 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-unikitty.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-unikitty-dark.sh"
   endif
 endif
 
 " GUI color definitions
-let s:gui00 = "322a30"
-let s:gui01 = "4f484d"
-let s:gui02 = "6c666b"
-let s:gui03 = "898588"
-let s:gui04 = "a7a3a6"
-let s:gui05 = "c4c2c3"
-let s:gui06 = "e1e0e1"
-let s:gui07 = "ffffff"
+let s:gui00 = "2e2a31"
+let s:gui01 = "4a464d"
+let s:gui02 = "666369"
+let s:gui03 = "838085"
+let s:gui04 = "9f9da2"
+let s:gui05 = "bcbabe"
+let s:gui06 = "d8d7da"
+let s:gui07 = "f5f4f7"
 let s:gui08 = "d8137f"
 let s:gui09 = "d65407"
 let s:gui0A = "dc8a0e"
 let s:gui0B = "17ad98"
 let s:gui0C = "149bda"
-let s:gui0D = "735bf1"
-let s:gui0E = "a232dc"
+let s:gui0D = "796af5"
+let s:gui0E = "bb60ea"
 let s:gui0F = "c720ca"
-
-" Neovim color definitions for terminal mode
-if has("nvim")
-  let g:terminal_color_0 =  "#" . s:gui00
-  let g:terminal_color_1 =  "#" . s:gui08
-  let g:terminal_color_2 =  "#" . s:gui0B
-  let g:terminal_color_3 =  "#" . s:gui0A
-  let g:terminal_color_4 =  "#" . s:gui0D
-  let g:terminal_color_5 =  "#" . s:gui0E
-  let g:terminal_color_6 =  "#" . s:gui0C
-  let g:terminal_color_7 =  "#" . s:gui05
-  let g:terminal_color_8 =  "#" . s:gui03
-  let g:terminal_color_9 =  "#" . s:gui09
-  let g:terminal_color_10 = "#" . s:gui01
-  let g:terminal_color_11 = "#" . s:gui02
-  let g:terminal_color_12 = "#" . s:gui04
-  let g:terminal_color_13 = "#" . s:gui06
-  let g:terminal_color_14 = "#" . s:gui0F
-  let g:terminal_color_15 = "#" . s:gui07
-  let g:terminal_color_background = g:terminal_color_0
-  let g:terminal_color_foreground = g:terminal_color_7
-  if &background == "light"
-    let g:terminal_color_background = g:terminal_color_7
-    let g:terminal_color_foreground = g:terminal_color_2
-  endif
-endif
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -85,21 +60,21 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-unikitty"
+let g:colors_name = "base16-unikitty-dark"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   if a:guifg != ""
-    exec "hi " . a:group . " guifg=#" . s:gui(a:guifg)
+    exec "hi " . a:group . " guifg=#" . a:guifg
   endif
   if a:guibg != ""
-    exec "hi " . a:group . " guibg=#" . s:gui(a:guibg)
+    exec "hi " . a:group . " guibg=#" . a:guibg
   endif
   if a:ctermfg != ""
-    exec "hi " . a:group . " ctermfg=" . s:cterm(a:ctermfg)
+    exec "hi " . a:group . " ctermfg=" . a:ctermfg
   endif
   if a:ctermbg != ""
-    exec "hi " . a:group . " ctermbg=" . s:cterm(a:ctermbg)
+    exec "hi " . a:group . " ctermbg=" . a:ctermbg
   endif
   if a:attr != ""
     exec "hi " . a:group . " gui=" . a:attr . " cterm=" . a:attr
@@ -107,60 +82,6 @@ fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   if a:guisp != ""
     exec "hi " . a:group . " guisp=#" . a:guisp
   endif
-endfun
-
-" Return GUI color for light/dark variants
-fun s:gui(color)
-  if &background == "dark"
-    return a:color
-  endif
-
-  if a:color == s:gui00
-    return s:gui07
-  elseif a:color == s:gui01
-    return s:gui06
-  elseif a:color == s:gui02
-    return s:gui05
-  elseif a:color == s:gui03
-    return s:gui04
-  elseif a:color == s:gui04
-    return s:gui03
-  elseif a:color == s:gui05
-    return s:gui02
-  elseif a:color == s:gui06
-    return s:gui01
-  elseif a:color == s:gui07
-    return s:gui00
-  endif
-
-  return a:color
-endfun
-
-" Return terminal color for light/dark variants
-fun s:cterm(color)
-  if &background == "dark"
-    return a:color
-  endif
-
-  if a:color == s:cterm00
-    return s:cterm07
-  elseif a:color == s:cterm01
-    return s:cterm06
-  elseif a:color == s:cterm02
-    return s:cterm05
-  elseif a:color == s:cterm03
-    return s:cterm04
-  elseif a:color == s:cterm04
-    return s:cterm03
-  elseif a:color == s:cterm05
-    return s:cterm02
-  elseif a:color == s:cterm06
-    return s:cterm01
-  elseif a:color == s:cterm07
-    return s:cterm00
-  endif
-
-  return a:color
 endfun
 
 " Vim editor colors
@@ -172,14 +93,14 @@ call <sid>hi("ErrorMsg",      s:gui08, s:gui00, s:cterm08, s:cterm00, "", "")
 call <sid>hi("Exception",     s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("FoldColumn",    s:gui0C, s:gui01, s:cterm0C, s:cterm01, "", "")
 call <sid>hi("Folded",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
-call <sid>hi("IncSearch",     s:gui01, s:gui09, s:cterm01, s:cterm09, "none", "")
+call <sid>hi("IncSearch",     s:gui01, s:gui0A, s:cterm01, s:cterm0A, "none", "")
 call <sid>hi("Italic",        "", "", "", "", "none", "")
 call <sid>hi("Macro",         s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03, "", "")
+call <sid>hi("MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03,  "", "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("Search",        s:gui06, s:gui0A, s:cterm06, s:cterm0A, "", "")
+call <sid>hi("Search",        s:gui01, s:gui0A, s:cterm01, s:cterm0A,  "", "")
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "", "")
@@ -344,8 +265,6 @@ call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
 
 " Remove functions
 delf <sid>hi
-delf <sid>gui
-delf <sid>cterm
 
 " Remove color variables
 unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F

@@ -1,7 +1,7 @@
 /*
 
     Name:       Base16 Unikitty Light
-    Author:     Josh W Lewis
+    Author:     Josh W Lewis (@joshwlewis)
 
     highlight.js v8.0 template by Jan T. Sott (https://github.com/idleberg/base16-highlight.js)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
@@ -10,7 +10,7 @@
 
 /* Unikitty Comment */
 .hljs-comment {
-  color: #898588;
+  color: #878589;
 }
 
 /* Unikitty Red */
@@ -71,18 +71,18 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #735bf1;
+  color: #7864fa;
 }
 
 /* Unikitty Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #a232dc;
+  color: #b33ce8;
 }
 
 .diff .hljs-deletion,
 .diff .hljs-addition {
-  color: #322a30;
+  color: #2e2a31;
   display: inline-block;
   width: 100%;
 }
@@ -93,14 +93,14 @@
   background-color: #17ad98;
 }
 .diff .hljs-change {
-  color: #735bf1;
+  color: #7864fa;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
   background: #ffffff;
-  color: #6c666b;
+  color: #69666b;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

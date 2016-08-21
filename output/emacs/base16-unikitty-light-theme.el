@@ -1,5 +1,5 @@
 ;; Base16 Unikitty (https://github.com/chriskempson/base16)
-;; Scheme: Josh W Lewis
+;; Scheme: Josh W Lewis (@joshwlewis)
 
 ;;; base16-unikitty-light-theme.el
 
@@ -7,12 +7,12 @@
 
 (deftheme base16-unikitty-light)
 
-(let ((base00 "#322a30")
-      (base01 "#4f484d")
-      (base02 "#6c666b")
-      (base03 "#898588")
-      (base04 "#a7a3a6")
-      (base05 "#c4c2c3")
+(let ((base00 "#2e2a31")
+      (base01 "#4b484e")
+      (base02 "#69666b")
+      (base03 "#878589")
+      (base04 "#a5a3a6")
+      (base05 "#c3c2c4")
       (base06 "#e1e0e1")
       (base07 "#ffffff")
       (base08 "#d8137f")
@@ -20,9 +20,9 @@
       (base0A "#dc8a0e")
       (base0B "#17ad98")
       (base0C "#149bda")
-      (base0D "#735bf1")
-      (base0E "#a232dc")
-      (base0F "#c720ca"))
+      (base0D "#7864fa")
+      (base0E "#b33ce8")
+      (base0F "#d41acd"))
 
   (custom-theme-set-faces
    'base16-unikitty-light

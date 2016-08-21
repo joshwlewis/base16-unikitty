@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Unikitty - Mate Terminal color scheme install script
-# Josh W Lewis
+# Josh W Lewis (@joshwlewis)
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Unikitty Light"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-unikitty-light"
@@ -35,10 +35,10 @@ glist_append() {
 glist_append /org/mate/terminal/global/profile-list "$PROFILE_SLUG"
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#ffffff:#d8137f:#17ad98:#dc8a0e:#735bf1:#a232dc:#149bda:#c4c2c3:#898588:#d8137f:#17ad98:#dc8a0e:#735bf1:#a232dc:#149bda:#322a30'"
+dset palette "'#ffffff:#d8137f:#17ad98:#dc8a0e:#7864fa:#b33ce8:#149bda:#c3c2c4:#878589:#d8137f:#17ad98:#dc8a0e:#7864fa:#b33ce8:#149bda:#2e2a31'"
 dset background-color "'#ffffff'"
-dset foreground-color "'#6c666b'"
-dset bold-color "'#6c666b'"
+dset foreground-color "'#69666b'"
+dset bold-color "'#69666b'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"

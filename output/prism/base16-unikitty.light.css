@@ -1,7 +1,7 @@
 /*
 
 Name:       Base16 Unikitty Light
-Author:     Josh W Lewis
+Author:     Josh W Lewis (@joshwlewis)
 
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
@@ -28,7 +28,7 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
   background: #ffffff;
-  color: #6c666b;
+  color: #69666b;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -60,11 +60,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #a7a3a6;
+  color: #a5a3a6;
 }
 
 .token.punctuation {
-  color: #6c666b;
+  color: #69666b;
 }
 
 .token.namespace {
@@ -80,13 +80,13 @@ pre[class*="language-"] {
   color: #dc8a0e;
 }
 .token.tag {
-  color: #735bf1;
+  color: #7864fa;
 }
 .token.string {
   color: #149bda;
 }
 .token.selector {
-  color: #a232dc;
+  color: #b33ce8;
 }
 .token.attr-name {
   color: #d65407;
@@ -114,7 +114,7 @@ pre[class*="language-"] {
 
 .token.placeholder,
 .token.variable {
-  color: #735bf1;
+  color: #7864fa;
 }
 
 .token.deleted {
@@ -122,7 +122,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #322a30;
+  border-bottom: 1px dotted #2e2a31;
   text-decoration: none;
 }
 

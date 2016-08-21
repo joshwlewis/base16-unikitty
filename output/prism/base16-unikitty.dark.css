@@ -1,7 +1,7 @@
 /*
 
 Name:       Base16 Unikitty Dark
-Author:     Josh W Lewis
+Author:     Josh W Lewis (@joshwlewis)
 
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
@@ -27,20 +27,20 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #322a30;
-  color: #c4c2c3;
+  background: #2e2a31;
+  color: #c3c2c4;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #a7a3a6;
+  background: #a5a3a6;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #a7a3a6;
+  background: #a5a3a6;
 }
 
 /* Code blocks */
@@ -60,11 +60,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #898588;
+  color: #878589;
 }
 
 .token.punctuation {
-  color: #c4c2c3;
+  color: #c3c2c4;
 }
 
 .token.namespace {
@@ -80,13 +80,13 @@ pre[class*="language-"] {
   color: #dc8a0e;
 }
 .token.tag {
-  color: #735bf1;
+  color: #7864fa;
 }
 .token.string {
   color: #149bda;
 }
 .token.selector {
-  color: #a232dc;
+  color: #b33ce8;
 }
 .token.attr-name {
   color: #d65407;
@@ -114,7 +114,7 @@ pre[class*="language-"] {
 
 .token.placeholder,
 .token.variable {
-  color: #735bf1;
+  color: #7864fa;
 }
 
 .token.deleted {

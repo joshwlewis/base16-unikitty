@@ -1,14 +1,14 @@
 # ~/.i3/config
 # i3 config template
-# Base16 Unikitty by Josh W Lewis
+# Base16 Unikitty by Josh W Lewis (@joshwlewis)
 # template by Matt Parnell, @parnmatt
 
-set $base00 #322a30
-set $base01 #4f484d
-set $base02 #6c666b
-set $base03 #898588
-set $base04 #a7a3a6
-set $base05 #c4c2c3
+set $base00 #2e2a31
+set $base01 #4b484e
+set $base02 #69666b
+set $base03 #878589
+set $base04 #a5a3a6
+set $base05 #c3c2c4
 set $base06 #e1e0e1
 set $base07 #ffffff
 set $base08 #d8137f
@@ -16,9 +16,9 @@ set $base09 #d65407
 set $base0A #dc8a0e
 set $base0B #17ad98
 set $base0C #149bda
-set $base0D #735bf1
-set $base0E #a232dc
-set $base0F #c720ca
+set $base0D #7864fa
+set $base0E #b33ce8
+set $base0F #d41acd
 
 client.focused $base0D $base0D $base00 $base01
 client.focused_inactive $base02 $base02 $base03 $base01
