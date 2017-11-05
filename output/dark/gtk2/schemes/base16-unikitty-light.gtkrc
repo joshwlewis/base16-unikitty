@@ -1,6 +1,0 @@
-# Base16 Unikitty Light for gtk2 (https://github.com/dawikur/base16-gtk2)
-# By Josh W Lewis (@joshwlewis)
-# unikitty-light (https://github.com/dawikur/base16-gruvbox-scheme)
-
-gtk-color-scheme = "bg_color:#ffffff\nfg_color:#6c696e\nbase_color:#ffffff\ntext_color:#6c696e\nselected_bg_color:#c4c3c5\nselected_fg_color:#6c696e\ntooltip_bg_color:#ffffff\ntooltip_fg_color:#89878b\ntitlebar_bg_color:#ffffff\ntitlebar_fg_color:#775dff\nmenubar_bg_color:#ffffff\nmenubar_fg_color:#775dff\ntoolbar_bg_color:#ffffff\ntoolbar_fg_color:#dc8a0e\nmenu_bg_color:#ffffff\nmenu_fg_color:#6c696e\npanel_bg_color:#ffffff\npanel_fg_color:#17ad98\nlink_color:#d65407"
-
