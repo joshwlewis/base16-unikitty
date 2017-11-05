@@ -1,0 +1,61 @@
+
+# base16 Unikitty Dark by Josh W Lewis (@joshwlewis)
+
+.colors *
+
+-text		$bcbabe/$2e2a31
+-status		$9f9da2/$666369
+-cursor		$2e2a31/$bcbabe
+-selection	/$666369
+-curlin		/$4a464d
+-linum		$838085/$4a464d
+-curlinum	$9f9da2/$4a464d
+-menusel	$4a464d/$9f9da2
+
+-term 0 	$2e2a31
+-term 1 	$796af5
+-term 2 	$17ad98
+-term 3 	$149bda
+-term 4 	$d65407
+-term 5 	$bb60ea
+-term 6 	$dc8a0e
+-term 7 	$9f9da2
+-term 8 	$838085
+-term 9 	$796af5
+-term 10	$17ad98
+-term 11	$149bda
+-term 12	$d8137f
+-term 13	$c720ca
+-term 14	$dc8a0e
+-term 15	$f5f4f7
+
+=Constant	$d65407
+=String		$17ad98
+=Escape		$149bda
+
+=Comment	$838085
+=StorageClass	+Type
+=Keyword	$bb60ea
+=Conditional	$bb60ea
+=Operator	$bcbabe
+=Loop		$dc8a0e
+=Statement	$d8137f
+=Type		$dc8a0e
+
+=DefinedIdent	$d8137f
+=Label		$dc8a0e
+=DefinedType	$dc8a0e
+=Structure	$bb60ea
+
+=Preproc	$dc8a0e
+=Include	$796af5
+=Define		$bb60ea
+=TODO		$dc8a0e/$4a464d
+=Precond	$bb60ea
+
+=diff.AddLine	$17ad98/$4a464d
+=diff.ChgLine	$838085/$4a464d
+=diff.DelLine	$d8137f/$4a464d
+=diff.File	$d8137f
+=diff.FileNew	$17ad98
+=diff.Hunk	$796af5

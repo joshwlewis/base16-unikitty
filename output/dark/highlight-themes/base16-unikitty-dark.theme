@@ -1,0 +1,26 @@
+-- Name: Base16 Unikitty Dark
+-- Author: Josh W Lewis (@joshwlewis)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#bcbabe" }
+Canvas = { Colour="#2e2a31" }
+Number = { Colour="#d65407" }
+Escape = { Colour="#d8d7da" , Italic=true}
+String = { Colour="#17ad98" }
+BlockComment = { Colour="#838085" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#bcbabe" }
+LineNum      = { Color="#838085" }
+PreProcessor      = { Colour="#c720ca" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d8137f", Bold=true},
+  { Colour="#dc8a0e"},
+  { Colour="#796af5"},
+  { Colour="#dc8a0e"},
+  { Colour="#dc8a0e" }
+}
