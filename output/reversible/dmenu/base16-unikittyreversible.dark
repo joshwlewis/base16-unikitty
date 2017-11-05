@@ -1,0 +1,6 @@
+# dmenu template
+# Base16 Unikitty Reversible Dark, by Josh W Lewis (@joshwlewis)
+# template by Matt Parnell, @parnmatt
+
+# add this as an alias, or however you wish to run dmenu
+dmenu -nb '2e2a31' -nf '878589' -sb '7864fa' -sf '2e2a31'

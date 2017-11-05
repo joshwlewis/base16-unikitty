@@ -1,0 +1,6 @@
+# dmenu template
+# Base16 Unikitty Reversible Light, by Josh W Lewis (@joshwlewis)
+# template by Matt Parnell, @parnmatt
+
+# add this as an alias, or however you wish to run dmenu
+dmenu -nb 'c3c2c4' -nf '69666b' -sb '7864fa' -sf '4b484e'

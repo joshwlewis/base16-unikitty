@@ -1,0 +1,23 @@
+/* Base16 Unikitty Reversible
+Scheme: Josh W Lewis (@joshwlewis) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #2e2a31; color: #c3c2c4 }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #4b484e; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #2e2a31; }
+pre.sourceCode { background-color: #2e2a31; line-height: 125% }
+td.nums pre { background-color: #4b484e; line-height: 125% }
+code.sourceCode span.kw { color: #7864fa; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #b33ce8} /* Keyword.Type */
+code.sourceCode span.dv { color: #d65407 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #d65407 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #d65407 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #17ad98} /* Literal.String.Char */
+code.sourceCode span.st { color: #17ad98 } /* Literal.String */
+code.sourceCode span.co { color: #878589 } /* Comment */
+code.sourceCode span.ot { color: #d41acd } /* Comment.Preproc */
+code.sourceCode span.al { color: #b33ce8 } /* Generic.Error */
+code.sourceCode span.fu { color: #dc8a0e } /* Name.Function */
+code.sourceCode span.re { color: #149bda}
+code.sourceCode span.er { color: #d8137f; border: 1px solid #b33ce8 } /* Error */

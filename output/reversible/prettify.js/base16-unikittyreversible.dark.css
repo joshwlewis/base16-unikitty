@@ -1,0 +1,168 @@
+/*
+
+    Name:       Base16 Unikitty Reversible Dark
+    Author:     Josh W Lewis (@joshwlewis)
+
+    Prettify template by Jan T. Sott (https://github.com/idleberg/)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+/* plain text */
+.pln {
+  color: #ffffff;
+}
+
+@media screen {
+  /* string content */
+  .str {
+    color: #17ad98;
+  }
+
+  /* a keyword */
+  .kwd {
+    color: #b33ce8;
+  }
+
+  /* a comment */
+  .com {
+    color: #878589;
+  }
+
+  /* a type name */
+  .typ {
+    color: #7864fa;
+  }
+
+  /* a literal value */
+  .lit {
+    color: #d65407;
+  }
+
+  /* punctuation */
+  .pun {
+    color: #ffffff;
+  }
+
+  /* lisp open bracket */
+  .opn {
+    color: #ffffff;
+  }
+
+  /* lisp close bracket */
+  .clo {
+    color: #ffffff;
+  }
+
+  /* a markup tag name */
+  .tag {
+    color: #d8137f;
+  }
+
+  /* a markup attribute name */
+  .atn {
+    color: #d65407;
+  }
+
+  /* a markup attribute value */
+  .atv {
+    color: #149bda;
+  }
+
+  /* a declaration */
+  .dec {
+    color: #d65407;
+  }
+
+  /* a variable name */
+  .var {
+    color: #d8137f;
+  }
+
+  /* a function name */
+  .fun {
+    color: #7864fa;
+  }
+}
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+/* Style */
+pre.prettyprint {
+  background: #2e2a31;
+  color: #69666b;
+  font-family: Consolas, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid #2e2a31;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  /* */
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+  /* */
+}

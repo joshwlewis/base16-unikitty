@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE palette PUBLIC "-//Kreative//DTD ResplendentColor 1.0//EN" "rcpx.dtd">
+<palette name="Base16 Unikitty Reversible">
+	<colors ordered="ordered">
+		<rgb r= "46" g= "42" b= "49"/>
+		<rgb r= "75" g= "72" b= "78"/>
+		<rgb r="105" g="102" b="107"/>
+		<rgb r="135" g="133" b="137"/>
+		<rgb r="165" g="163" b="166"/>
+		<rgb r="195" g="194" b="196"/>
+		<rgb r="225" g="224" b="225"/>
+		<rgb r="255" g="255" b="255"/>
+		<rgb r="216" g= "19" b="127"/>
+		<rgb r="214" g= "84" b=  "7"/>
+		<rgb r="220" g="138" b= "14"/>
+		<rgb r= "23" g="173" b="152"/>
+		<rgb r= "20" g="155" b="218"/>
+		<rgb r="120" g="100" b="250"/>
+		<rgb r="179" g= "60" b="232"/>
+		<rgb r="212" g= "26" b="205"/>
+	</colors>
+	<layout>
+		<oriented>
+			<horizontal>
+				<column>
+					<row><range start="0" end= "8"/></row>
+					<row><range start="8" end="16"/></row>
+				</column>
+			</horizontal>
+			<square>
+				<column>
+					<row><range start= "0" end= "4"/></row>
+					<row><range start= "4" end= "8"/></row>
+					<row><range start= "8" end="12"/></row>
+					<row><range start="12" end="16"/></row>
+				</column>
+			</square>
+			<vertical>
+				<row>
+					<column><range start="0" end= "8"/></column>
+					<column><range start="8" end="16"/></column>
+				</row>
+			</vertical>
+		</oriented>
+	</layout>
+</palette>

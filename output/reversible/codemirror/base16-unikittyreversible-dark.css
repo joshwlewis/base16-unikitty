@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Unikitty Reversible Dark
+    Author:     Josh W Lewis (@joshwlewis)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-unikittyreversible-dark.CodeMirror {background: #2e2a31; color: #e1e0e1;}
+.cm-s-base16-unikittyreversible-dark div.CodeMirror-selected {background: #4b484e !important;}
+.cm-s-base16-unikittyreversible-dark .CodeMirror-gutters {background: #2e2a31; border-right: 0px;}
+.cm-s-base16-unikittyreversible-dark .CodeMirror-linenumber {color: #878589;}
+.cm-s-base16-unikittyreversible-dark .CodeMirror-cursor {border-left: 1px solid #a5a3a6 !important;}
+
+.cm-s-base16-unikittyreversible-dark span.cm-comment {color: #d41acd;}
+.cm-s-base16-unikittyreversible-dark span.cm-atom {color: #b33ce8;}
+.cm-s-base16-unikittyreversible-dark span.cm-number {color: #b33ce8;}
+
+.cm-s-base16-unikittyreversible-dark span.cm-property, .cm-s-base16-unikittyreversible-dark span.cm-attribute {color: #17ad98;}
+.cm-s-base16-unikittyreversible-dark span.cm-keyword {color: #d8137f;}
+.cm-s-base16-unikittyreversible-dark span.cm-string {color: #dc8a0e;}
+
+.cm-s-base16-unikittyreversible-dark span.cm-variable {color: #17ad98;}
+.cm-s-base16-unikittyreversible-dark span.cm-variable-2 {color: #7864fa;}
+.cm-s-base16-unikittyreversible-dark span.cm-def {color: #d65407;}
+.cm-s-base16-unikittyreversible-dark span.cm-error {background: #d8137f; color: #a5a3a6;}
+.cm-s-base16-unikittyreversible-dark span.cm-bracket {color: #e1e0e1;}
+.cm-s-base16-unikittyreversible-dark span.cm-tag {color: #d8137f;}
+.cm-s-base16-unikittyreversible-dark span.cm-link {color: #b33ce8;}
+
+.cm-s-base16-unikittyreversible-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

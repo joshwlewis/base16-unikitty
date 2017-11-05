@@ -1,0 +1,13 @@
+# ~/.i3status.conf
+# Base16 Unikitty Reversible, by Josh W Lewis (@joshwlewis)
+# template by Matt Parnell, @parnmatt
+
+general {
+    colors = true
+    color_good = "#17ad98"
+    color_bad = "d8137f"
+    ## remember to add your prefered interval
+    # interval = 5
+}
+
+## remember to add the rest of your configure

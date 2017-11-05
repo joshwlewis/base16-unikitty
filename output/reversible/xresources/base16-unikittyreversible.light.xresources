@@ -1,0 +1,41 @@
+! Base16 Unikitty Reversible
+! Scheme: Josh W Lewis (@joshwlewis)
+
+#define base00 #2e2a31
+#define base01 #4b484e
+#define base02 #69666b
+#define base03 #878589
+#define base04 #a5a3a6
+#define base05 #c3c2c4
+#define base06 #e1e0e1
+#define base07 #ffffff
+#define base08 #d8137f
+#define base09 #d65407
+#define base0A #dc8a0e
+#define base0B #17ad98
+#define base0C #149bda
+#define base0D #7864fa
+#define base0E #b33ce8
+#define base0F #d41acd
+
+*foreground:   base02
+*background:   base07
+*cursorColor:  base02
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

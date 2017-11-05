@@ -1,0 +1,66 @@
+/**
+ * Base16 Unikitty Reversible Dark
+ *
+ * @author Josh W Lewis (@joshwlewis)
+ *
+ * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
+ * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+ */
+$base00 = #2e2a31;
+$base01 = #4b484e;
+$base02 = #69666b;
+$base03 = #878589;
+$base04 = #a5a3a6;
+$base05 = #c3c2c4;
+$base06 = #e1e0e1;
+$base07 = #ffffff;
+$base08 = #d8137f;
+$base09 = #d65407;
+$base0a = #dc8a0e;
+$base0b = #17ad98;
+$base0c = #149bda;
+$base0d = #7864fa;
+$base0e = #b33ce8;
+$base0f = #d41acd;
+
+pre {
+    background-color: $base00;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 10px;
+    color: $base07;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+pre, code {
+    font-family: 'Monaco', courier, monospace;
+}
+
+pre .comment {
+    color: $base03;
+}
+
+pre .variable.global, pre .variable.class, pre .variable.instance {
+    color: $base08; // red
+}
+
+pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
+    color: $base09; // orange
+}
+
+pre .constant, pre .entity, pre .entity.class, pre .support {
+    color: $base0a; // yellow
+}
+
+pre .constant.symbol, pre .string {
+    color: $base0b; // green
+}
+
+pre .entity.function, pre .support.css-property, pre .selector {
+    color: $base0d; // blue
+}
+
+pre .keyword, pre .storage {
+    color: $base0e; // purple
+}
